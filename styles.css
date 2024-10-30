@@ -277,6 +277,11 @@ button:focus,
     height: 360px;
   }
 
+  .player-buttons {
+    background-color: #0f0f0f99;
+    padding: 3px;
+  }
+
   #playlist-songs {
     height: 280px;
     padding: 5px 6px;

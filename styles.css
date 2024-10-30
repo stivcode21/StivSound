@@ -222,6 +222,7 @@ button:focus,
 #player-song-title,
 #player-song-artist {
   margin: 0;
+  font-weight: 700;
 }
 
 #player-song-artist {
@@ -270,7 +271,7 @@ button:focus,
 @media (max-width: 700px) {
   .player,
   .playlist {
-    width: 430px;
+    width: 420px;
   }
 
   .player {
@@ -315,7 +316,8 @@ button:focus,
   .playlist-bar,
   .player-content,
   #playlist-songs {
-    width: 400px;
+    width: 380px;
+    margin: auto;
   }
 
   .playlist-song {
@@ -347,7 +349,7 @@ button:focus,
   }
 
   #player-album-art img {
-    width: 400px;
+    width: 380px;
     object-fit: cover;
     height: 290px;
   }

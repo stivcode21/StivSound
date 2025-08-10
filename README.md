@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.postimg.cc/6Qq45pQn/STIVSOUND-3.webp" alt="StivSound Preview" width="800" height="500" />
+  <img src="https://i.postimg.cc/6Qq45pQn/STIVSOUND-3.webp" alt="StivSound Preview" width="700" height="500" />
 </p>
 
 <div align="center">

@@ -134,6 +134,8 @@ ul {
 
 .player-buttons svg {
   fill: var(--primary-color);
+  width: 24px;
+  height: 24px;
 }
 
 .playing > svg {
@@ -143,6 +145,7 @@ ul {
 .player-buttons {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 button {
@@ -271,7 +274,7 @@ button:focus,
 @media (max-width: 700px) {
   .player,
   .playlist {
-    width: 420px;
+    width: 380px;
   }
 
   .player {
@@ -280,7 +283,12 @@ button:focus,
 
   .player-buttons {
     background-color: #0f0f0f99;
-    padding: 3px;
+    padding: 6px 2px;
+  }
+
+  .player-buttons svg {
+    width: 20px;
+    height: 20px;
   }
 
   #playlist-songs {
@@ -316,7 +324,7 @@ button:focus,
   .playlist-bar,
   .player-content,
   #playlist-songs {
-    width: 380px;
+    width: 350px;
     margin: auto;
   }
 
@@ -349,7 +357,7 @@ button:focus,
   }
 
   #player-album-art img {
-    width: 380px;
+    width: 350px;
     object-fit: cover;
     height: 290px;
   }

@@ -156,6 +156,8 @@ button {
   font-size: var(--root-font-size);
   outline-color: var(--highlight-color);
   text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .playlist-song {
